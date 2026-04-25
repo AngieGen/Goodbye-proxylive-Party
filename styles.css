@@ -152,10 +152,17 @@ button {
 }
 
 /* BUTTON */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .btn {
   display: inline-block;
   padding: 12px 25px;
-  border: 1px solid currentColor;
+  border: 1px solid #ff7a00;
+  background-color: #ff7a00;
+  color: black;
+  border-radius: 4px;
   text-decoration: none;
   margin-top: 20px;
 }
