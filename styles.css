@@ -171,6 +171,112 @@ a {
   background: #ff7a00;
   color: #000;
 }
+/* SPECIAL GUEST */
+.special-guest {
+  max-width: 700px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.guest-badge {
+  display: inline-block;
+  background: #ff7a00;
+  color: #000;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 2px;
+  padding: 6px 20px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.guest-badge-ru {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.guest-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.guest-card img {
+  width: 50%;
+  object-fit: cover;
+  object-position: top;
+  flex-shrink: 0;
+}
+
+.guest-info {
+  padding: 24px 24px 24px 0;
+}
+
+.guest-title {
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #ff7a00;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.guest-name {
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.guest-date {
+  font-size: 13px;
+  color: #666;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.guest-desc {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.guest-desc.en {
+  color: #ccc;
+}
+.guest-desc.ru {
+  color: #555;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+  .guest-card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .guest-card img {
+    width: 70%;
+    object-position: center 20%;
+  }
+
+  .guest-info {
+    padding: 20px;
+  }
+
+  .guest-name {
+    font-size: 32px;
+  }
+}
 
 /* HOUSES GRID */
 .houses-grid {
