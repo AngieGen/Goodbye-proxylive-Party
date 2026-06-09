@@ -172,6 +172,66 @@ a {
   color: #000;
 }
 
+/* HOUSES GRID */
+.houses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: auto 1200px;
+  margin: 0 auto 30px;
+  text-align: left;
+}
+
+.house-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.house-label {
+  background: #000;
+  color: #ff7a00;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+}
+
+.house-card img {
+  width: 100%;
+  height: 100;
+  object-fit: cover;
+  display: block;
+}
+
+.house-info {
+  padding: 14px;
+}
+
+.house-beds {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.house-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.house-tags span {
+  background: #ff7a00;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 3px 9px;
+}
+
 /* 📱 MOBILE */
 @media (max-width: 768px) {
   nav {
